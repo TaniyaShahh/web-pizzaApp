@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +19,85 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+# ============================
+# Spring Boot & Java
+# ============================
+target/
+bin/
+*.iml
+*.ipr
+*.iws
+/.idea/
+.gradle/
+/out/
+*.class
+*.jar
+*.war
+*.ear
+/logs/
+*.log
+!spring.log
+.vscode/
+.env
+*.swp
+.DS_Store
+/.mvn/
+node_modules/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+/.settings/
+/.metadata/
+.classpath
+.project
+
+# Maven
+/.mvn/
+mvnw
+mvnw.cmd
+
+# ============================
+# Node.js (React Frontend)
+# ============================
+node_modules/
+dist/
+build/
+*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# Database & Secrets
+# ============================
+*.sqlite
+*.db
+*.sql
+/secrets/
+config/secrets.yml
+application.properties
+application.yml
+
+# ============================
+# Docker
+# ============================
+/docker-compose.override.yml
+/.dockerignore
+
+# ============================
+# Deployment
+# ============================
+/.idea/
+*.pem
+*.key
+*.crt
+*.env.production
